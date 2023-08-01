@@ -1,0 +1,130 @@
+.edge {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid 1px #00ab9d;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #bffdf8;
+}
+
+.edge-in {
+  margin-top: 20px;
+  border: solid 1px #00ab9d;
+  border-radius: 15px;
+  padding: 20px;
+}
+.city {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+.main-temp {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+.temp-details {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+.high-low-m {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+.lower-tmp- {
+  color: rgb(90, 88, 88);
+}
+.description {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(90, 88, 88);
+}
+
+.other-descriptions {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(90, 88, 88);
+}
+.day-hour {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(90, 88, 88);
+}
+
+.high-low {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.lower-tmp {
+  color: rgb(90, 88, 88);
+}
+
+.pre-footer {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.fa-regular {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+.fa-sun {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: gold;
+}
+.fa-solid {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.fa-cloud-sun {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(91, 91, 219);
+}
+.fa-cloud-rain {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(29, 29, 156);
+}
+
+.special {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.footer {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: rgb(90, 88, 88);
+}
+.my-name {
+  color: #00ab9d;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+.my-name:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.line {
+  color: #00ab9d;
+}
