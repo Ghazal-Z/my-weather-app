@@ -48,12 +48,13 @@
       <div class="container edge-in">
         <div class="row">
           <div class="col">
-            <h1 class="city" id="cur-city">Please enter a city😊</h1>
-            <h1>
-              <span class="main-temp" id="temp"></span>
-
-              <span class="line"></span>
-            </h1>
+            <div class="d-flex weather-temperature">
+              <div>
+                <h1 class="city" id="cur-city">Please enter a city😊</h1>
+                <strong class="main-temp" id="temp"></strong
+                ><span class="units"> °C | F</span>
+              </div>
+            </div>
 
             <h3 class="day-hour" id="current-date-time"></h3>
           </div>
@@ -121,24 +122,22 @@
       <p class="pre-footer">Thanks for using my app, have a nice day👋🏻</p>
       <hr />
       <hr />
-      <p class="footer">
-        This page was built by
-        <a
-          class="my-name"
-          href="https://ir.linkedin.com/in/ghazal-ziadlou"
-          target="_blank"
-          >Ghazal Ziadlou☺</a
-        >
-      </p>
     </div>
     <p class="name">
-      This code is available on
+      This
       <a
         class="src-link"
         href="https://github.com/Ghazal-Z/my-weather-app"
         target="_blank"
         >Open-source
       </a>
+      code hosted by netlify, coded by
+      <a
+        class="my-name"
+        href="https://ir.linkedin.com/in/ghazal-ziadlou"
+        target="_blank"
+        >Ghazal Ziadlou</a
+      >
     </p>
 
     <script src="src/app.js"></script>

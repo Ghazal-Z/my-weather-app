@@ -47,7 +47,7 @@ function crTemp(response) {
   let curTemp = document.querySelector("#temp");
   let roundTemp = Math.round(response.data.main.temp);
   curCity.innerHTML = response.data.name;
-  curTemp.innerHTML = `${roundTemp}°C`;
+  curTemp.innerHTML = `${roundTemp} `;
 }
 
 function searchForCity(city) {
