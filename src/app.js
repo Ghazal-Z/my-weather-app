@@ -45,9 +45,15 @@ function search(event) {
 function crTemp(response) {
   let curCity = document.querySelector("#cur-city");
   let curTemp = document.querySelector("#temp");
+  let curDescription = document.querySelector("#weather-description");
+  let curHumidity = document.querySelector("#humidity");
+  let curWind = document.querySelector("#wind");
   let roundTemp = Math.round(response.data.main.temp);
   curCity.innerHTML = response.data.name;
   curTemp.innerHTML = `${roundTemp} `;
+  curDescription.innerHTML = response.data.weather[0].description;
+  curHumidity.innerHTML = response.data.main.humidity;
+  curWind.innerHTML = Math.round(response.data.wind.speed);
 }
 
 function searchForCity(city) {
