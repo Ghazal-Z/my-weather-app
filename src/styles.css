@@ -25,9 +25,7 @@
   font-weight: 700;
   font-size: 50px;
 }
-.weather-temperature .float-left {
-  margin-left: 1px;
-}
+
 .weather-temperature .units {
   position: relative;
   font-size: 20px;
