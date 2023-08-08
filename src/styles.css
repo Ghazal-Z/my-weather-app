@@ -8,7 +8,7 @@
   border: solid 1px #00ab9d;
   border-radius: 15px;
   padding: 20px;
-  background-color: #bffdf8;
+  background-color: #67f8ec;
 }
 
 .edge-in {
@@ -23,12 +23,13 @@
 }
 .main-temp {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 50px;
 }
-
+.weather-temperature .float-left {
+  margin-left: 1px;
+}
 .weather-temperature .units {
   position: relative;
-
   font-size: 20px;
   top: -20px;
 }
@@ -45,29 +46,29 @@
   font-size: 30px;
 }
 .lower-tmp- {
-  color: rgb(90, 88, 88);
+  color: rgb(73, 73, 73);
 }
 .description {
   font-weight: 500;
   font-size: 20px;
-  color: rgb(90, 88, 88);
+  color: rgb(73, 73, 73);
   text-transform: capitalize;
 }
 
 .other-descriptions {
   font-weight: 500;
   font-size: 20px;
-  color: rgb(90, 88, 88);
+  color: rgb(73, 73, 73);
 }
 .day-hour {
   font-weight: 500;
   font-size: 20px;
-  color: rgb(90, 88, 88);
+  color: rgb(73, 73, 73);
 }
 .description {
   font-weight: 500;
   font-size: 20px;
-  color: rgb(90, 88, 88);
+  color: rgb(73, 73, 73);
 }
 
 .high-low {
@@ -75,7 +76,7 @@
   font-size: 20px;
 }
 .lower-tmp {
-  color: rgb(90, 88, 88);
+  color: rgb(73, 73, 73);
 }
 
 .pre-footer {
