@@ -50,6 +50,9 @@ function crTemp(response) {
   let curWind = document.querySelector("#wind");
   let roundTemp = Math.round(response.data.main.temp);
   let curIcon = document.querySelector("#icon");
+
+  celsiusTemp = response.data.main.temp;
+
   curCity.innerHTML = response.data.name;
   curTemp.innerHTML = `${roundTemp} `;
   curDescription.innerHTML = response.data.weather[0].description;
@@ -91,10 +94,21 @@ function currentLocation(event) {
 }
 //
 
+function dispalyFahrenheitTemp(event) {
+  event.preventDefault();
+  let tempElement = document.querySelector("#temp");
+  let fahrenheitTemp = Math.round((celsiusTemp * 9) / 5 + 32);
+  tempElement.innerHTML = fahrenheitTemp;
+}
+
+let celsiusTemp = null;
+
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", submit);
 
 let currentButton = document.querySelector("#current");
 currentButton.addEventListener("click", currentLocation);
 
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", dispalyFahrenheitTemp);
 searchForCity("Berlin");
