@@ -101,6 +101,12 @@ function dispalyFahrenheitTemp(event) {
   tempElement.innerHTML = fahrenheitTemp;
 }
 
+function dispalyCelsiusTemp(event) {
+  event.preventDefault();
+  let tempElement = document.querySelector("#temp");
+  tempElement.innerHTML = Math.round(celsiusTemp);
+}
+
 let celsiusTemp = null;
 
 let searchForm = document.querySelector("#search-form");
@@ -111,4 +117,8 @@ currentButton.addEventListener("click", currentLocation);
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", dispalyFahrenheitTemp);
+
+let celsiusiLink = document.querySelector("#celsius-link");
+celsiusiLink.addEventListener("click", dispalyCelsiusTemp);
+
 searchForCity("Berlin");
