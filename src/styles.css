@@ -31,6 +31,23 @@
   font-size: 20px;
   top: -20px;
 }
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-temperature .celLink:hover {
+  text-decoration: none;
+}
+
+.weather-temperature .fahLink:hover {
+  text-decoration: none;
+}
+
 .city degree {
   font-weight: 700;
   font-size: 10px;

@@ -97,6 +97,10 @@ function currentLocation(event) {
 function dispalyFahrenheitTemp(event) {
   event.preventDefault();
   let tempElement = document.querySelector("#temp");
+  //remove active class form celsius link
+  celsiusiLink.classList.remove("active");
+  fahrenheitLink.classList.add("active");
+
   let fahrenheitTemp = Math.round((celsiusTemp * 9) / 5 + 32);
   tempElement.innerHTML = fahrenheitTemp;
 }
@@ -104,6 +108,11 @@ function dispalyFahrenheitTemp(event) {
 function dispalyCelsiusTemp(event) {
   event.preventDefault();
   let tempElement = document.querySelector("#temp");
+
+  //add active class form celsius link
+  celsiusiLink.classList.add("active");
+  fahrenheitLink.classList.remove("active");
+
   tempElement.innerHTML = Math.round(celsiusTemp);
 }
 
