@@ -60,6 +60,8 @@ function searchForCity(city) {
 function submit(event) {
   event.preventDefault();
   let city = document.querySelector("#search-weather").value;
+  celsiusiLink.classList.add("active");
+  fahrenheitLink.classList.remove("active");
   searchForCity(city);
 }
 
