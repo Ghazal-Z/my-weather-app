@@ -77,6 +77,26 @@
   margin-top: 77px;
   position: relative;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+.weather-forecast-temp {
+  font-size: 13;
+  font-weight: 500;
+}
+
+.weather-forecast-temp-min {
+  color: rgb(97, 96, 96);
+}
 .day-hour {
   font-weight: 500;
   font-size: 20px;
@@ -100,31 +120,7 @@
   font-weight: 500;
   font-size: 18px;
   text-align: center;
-}
-
-.fa-regular {
-  font-weight: 500;
-  font-size: 25px;
-}
-.fa-sun {
-  font-weight: 500;
-  font-size: 25px;
-  color: gold;
-}
-.fa-solid {
-  font-weight: 500;
-  font-size: 25px;
-}
-
-.fa-cloud-sun {
-  font-weight: 500;
-  font-size: 25px;
-  color: rgb(91, 91, 219);
-}
-.fa-cloud-rain {
-  font-weight: 500;
-  font-size: 25px;
-  color: rgb(29, 29, 156);
+  margin-top: 20px;
 }
 
 .special {
