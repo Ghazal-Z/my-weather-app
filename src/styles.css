@@ -1,21 +1,29 @@
 .body {
   font-family: "DM Sans", sans-serif;
 }
-
 .edge {
   margin-top: 20px;
   margin-bottom: 20px;
   border: solid 1px #00ab9d;
   border-radius: 15px;
   padding: 20px;
-  background-color: #67f8ec;
+  background-color: rgb(123, 238, 241);
 }
 
 .edge-in {
   margin-top: 20px;
   border: solid 1px #00ab9d;
   border-radius: 15px;
-  padding: 20px;
+  padding: 15px;
+  background: radial-gradient(
+    263px at 100.2% 3%,
+    rgb(12, 85, 141) 31.1%,
+    rgb(205, 181, 93) 36.4%,
+    rgb(244, 102, 90) 50.9%,
+    rgb(199, 206, 187) 60.7%,
+    rgb(249, 140, 69) 72.5%,
+    rgb(111, 234, 238) 72.6%
+  );
 }
 .city {
   font-weight: 700;
