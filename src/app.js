@@ -47,7 +47,6 @@ function displayForecast() {
   });
   forecastHTML = forecastHTML + `</div>`;
   currentForecast.innerHTML = forecastHTML;
-  console.log(forecastHTML);
 }
 //
 
