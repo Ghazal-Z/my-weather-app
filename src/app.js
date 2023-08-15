@@ -149,4 +149,4 @@ fahrenheitLink.addEventListener("click", dispalyFahrenheitTemp);
 let celsiusiLink = document.querySelector("#celsius-link");
 celsiusiLink.addEventListener("click", dispalyCelsiusTemp);
 
-searchForCity("Gainesville");
+searchForCity("Berlin");
