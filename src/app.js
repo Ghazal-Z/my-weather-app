@@ -37,7 +37,6 @@ function displayForecast(response) {
   let currentForecast = document.querySelector("#forecast");
 
   let forecastHTML = `<div class="row">`;
-
   forecast.forEach(function (forecastDay, index) {
     if (index < 6) {
       forecastHTML =
@@ -116,22 +115,6 @@ function submit(event) {
   fahrenheitLink.classList.remove("active");
   searchForCity(city);
 }
-
-function searchForLocation(position) {
-  let apiKey = "4181c6f0469d9600bd1a5d46cb095d15";
-  let lat = position.coords.latitude;
-  let lon = position.coords.longitude;
-  let unit = "metric";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=${unit}`;
-
-  axios.get(apiUrl).then(crTemp);
-}
-
-function currentLocation(event) {
-  event.preventDefault();
-  navigator.geolocation.getCurrentPosition(searchForLocation);
-}
-//
 
 function dispalyFahrenheitTemp(event) {
   event.preventDefault();
