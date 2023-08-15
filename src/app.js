@@ -160,9 +160,6 @@ let celsiusTemp = null;
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", submit);
 
-let currentButton = document.querySelector("#current");
-currentButton.addEventListener("click", currentLocation);
-
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", dispalyFahrenheitTemp);
 
