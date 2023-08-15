@@ -86,13 +86,13 @@
 }
 
 .weather-forecast-date {
-  font-size: 30;
+  font-size: 20px;
   font-weight: 500;
   color: black;
 }
 
 .weather-forecast-temp {
-  font-size: 20;
+  font-size: 18px;
   font-weight: 500;
 }
 
