@@ -53,7 +53,7 @@ function displayForecast(response) {
 
 //
 function getForecast(coordinates) {
-  let apiKey = "4181c6f0469d9600bd1a5d46cb095d15";
+  let apiKey = "5aac6d0188c6f17d6d2bbe6591b6fef0";
   let apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
   axios.get(apiURL).then(displayForecast);
 }
@@ -85,7 +85,7 @@ function crTemp(response) {
 }
 
 function searchForCity(city) {
-  let apiKey = "4181c6f0469d9600bd1a5d46cb095d15";
+  let apiKey = "5aac6d0188c6f17d6d2bbe6591b6fef0";
   let units = "metric";
   let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiURL).then(crTemp);
@@ -152,4 +152,3 @@ let celsiusiLink = document.querySelector("#celsius-link");
 celsiusiLink.addEventListener("click", dispalyCelsiusTemp);
 
 searchForCity("Berlin");
-displayForecast();
